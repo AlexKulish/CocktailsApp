@@ -13,6 +13,7 @@
 		594E95BD27F1D16F001D7472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594E95BC27F1D16F001D7472 /* Assets.xcassets */; };
 		594E95C027F1D16F001D7472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594E95BE27F1D16F001D7472 /* LaunchScreen.storyboard */; };
 		594E95C827F1D31D001D7472 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 594E95C727F1D31D001D7472 /* .gitignore */; };
+		594E95D027F1E981001D7472 /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E95CF27F1E981001D7472 /* Cocktail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		594E95BF27F1D16F001D7472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		594E95C127F1D16F001D7472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		594E95C727F1D31D001D7472 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		594E95CF27F1E981001D7472 /* Cocktail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
 		6B4379D3FA7F57718EFA6B26 /* Pods-CocktailsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailsApp.release.xcconfig"; path = "Target Support Files/Pods-CocktailsApp/Pods-CocktailsApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +118,7 @@
 		594E95CD27F1D4DA001D7472 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				594E95CF27F1E981001D7472 /* Cocktail.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -133,7 +136,6 @@
 				05A9D2D9C59AF45AC77C3DD1 /* Pods-CocktailsApp.debug.xcconfig */,
 				6B4379D3FA7F57718EFA6B26 /* Pods-CocktailsApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -254,6 +256,7 @@
 			files = (
 				594E95B827F1D16C001D7472 /* ViewController.swift in Sources */,
 				594E95B427F1D16C001D7472 /* AppDelegate.swift in Sources */,
+				594E95D027F1E981001D7472 /* Cocktail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
