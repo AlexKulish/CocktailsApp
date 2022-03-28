@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CocktailViewController.swift
 //  CocktailsApp
 //
 //  Created by Alex Kulish on 28.03.2022.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CocktailViewController: UIViewController {
+    
+    private var drinks: [Drink] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
-
 
 }
-
