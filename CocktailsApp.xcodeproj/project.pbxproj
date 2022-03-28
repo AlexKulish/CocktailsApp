@@ -58,16 +58,64 @@
 		594E95B227F1D16C001D7472 /* CocktailsApp */ = {
 			isa = PBXGroup;
 			children = (
-				594E95B327F1D16C001D7472 /* AppDelegate.swift */,
-				594E95B527F1D16C001D7472 /* SceneDelegate.swift */,
-				594E95B727F1D16C001D7472 /* ViewController.swift */,
-				594E95B927F1D16C001D7472 /* Main.storyboard */,
-				594E95BC27F1D16F001D7472 /* Assets.xcassets */,
-				594E95BE27F1D16F001D7472 /* LaunchScreen.storyboard */,
-				594E95C127F1D16F001D7472 /* Info.plist */,
+				594E95CA27F1D4AA001D7472 /* ViewControllers */,
+				594E95CE27F1D4F0001D7472 /* Services */,
+				594E95CD27F1D4DA001D7472 /* Model */,
+				594E95CB27F1D4B6001D7472 /* Storyboards */,
+				594E95C927F1D495001D7472 /* SupportFiles */,
+				594E95CC27F1D4C3001D7472 /* Resources */,
 				594E95C727F1D31D001D7472 /* .gitignore */,
 			);
 			path = CocktailsApp;
+			sourceTree = "<group>";
+		};
+		594E95C927F1D495001D7472 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				594E95B327F1D16C001D7472 /* AppDelegate.swift */,
+				594E95B527F1D16C001D7472 /* SceneDelegate.swift */,
+				594E95C127F1D16F001D7472 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		594E95CA27F1D4AA001D7472 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				594E95B727F1D16C001D7472 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		594E95CB27F1D4B6001D7472 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				594E95BE27F1D16F001D7472 /* LaunchScreen.storyboard */,
+				594E95B927F1D16C001D7472 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		594E95CC27F1D4C3001D7472 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				594E95BC27F1D16F001D7472 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		594E95CD27F1D4DA001D7472 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		594E95CE27F1D4F0001D7472 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,7 +343,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4XK5S24922;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CocktailsApp/Info.plist;
+				INFOPLIST_FILE = CocktailsApp/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,7 +371,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4XK5S24922;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CocktailsApp/Info.plist;
+				INFOPLIST_FILE = CocktailsApp/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
