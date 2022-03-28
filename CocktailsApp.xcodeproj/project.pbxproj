@@ -13,6 +13,7 @@
 		594E95BB27F1D16C001D7472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594E95B927F1D16C001D7472 /* Main.storyboard */; };
 		594E95BD27F1D16F001D7472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594E95BC27F1D16F001D7472 /* Assets.xcassets */; };
 		594E95C027F1D16F001D7472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594E95BE27F1D16F001D7472 /* LaunchScreen.storyboard */; };
+		594E95C827F1D31D001D7472 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 594E95C727F1D31D001D7472 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		594E95BC27F1D16F001D7472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		594E95BF27F1D16F001D7472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		594E95C127F1D16F001D7472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594E95C727F1D31D001D7472 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				594E95BC27F1D16F001D7472 /* Assets.xcassets */,
 				594E95BE27F1D16F001D7472 /* LaunchScreen.storyboard */,
 				594E95C127F1D16F001D7472 /* Info.plist */,
+				594E95C727F1D31D001D7472 /* .gitignore */,
 			);
 			path = CocktailsApp;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594E95C827F1D31D001D7472 /* .gitignore in Resources */,
 				594E95C027F1D16F001D7472 /* LaunchScreen.storyboard in Resources */,
 				594E95BD27F1D16F001D7472 /* Assets.xcassets in Resources */,
 				594E95BB27F1D16C001D7472 /* Main.storyboard in Resources */,
