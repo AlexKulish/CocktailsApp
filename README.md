@@ -1,8 +1,8 @@
-## CocktailApp
+# CocktailApp
 
-# Custom CollectionView
-# MVC
-# SnapKit, Alamofire
+## Custom CollectionView
+## MVC
+## SnapKit, Alamofire
 
 Use Pods:
 1) pod init 
