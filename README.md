@@ -1,5 +1,11 @@
 ## CocktailApp
 
+Custom CollectionView
+MVC
+SnapKit, Alamofire
+
+Use Pods:
+
 1) pod init 
 2) open Podfile
   write...
