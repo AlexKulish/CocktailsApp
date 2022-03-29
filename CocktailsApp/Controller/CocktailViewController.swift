@@ -21,6 +21,7 @@ class CocktailViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         setView()
+        setupNavigationBar()
         fetchCocktail()
     }
     
@@ -90,6 +91,11 @@ extension CocktailViewController {
         customCollectionView.itemCollectionView.delegate = self
         customCollectionView.itemCollectionView.dataSource = self
         customCollectionView.itemCollectionView.register(CocktailCollectionViewCell.self, forCellWithReuseIdentifier: CocktailCollectionViewCell.identifier)
+    }
+    
+    private func setupNavigationBar() {
+        title = "Cocktails"
+        navigationController?.navigationBar.prefersLargeTitles = true
     }
 
 }
