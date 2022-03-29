@@ -18,6 +18,7 @@
 		594E95D827F24212001D7472 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E95D727F24212001D7472 /* NetworkManager.swift */; };
 		594E95DA27F24DBB001D7472 /* CollectionViewSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E95D927F24DBB001D7472 /* CollectionViewSettings.swift */; };
 		594E95DD27F25B78001D7472 /* CocktailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E95DC27F25B78001D7472 /* CocktailCollectionViewCell.swift */; };
+		594E95E027F310FA001D7472 /* CollectionViewCustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E95DF27F310FA001D7472 /* CollectionViewCustomLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		594E95D727F24212001D7472 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		594E95D927F24DBB001D7472 /* CollectionViewSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewSettings.swift; sourceTree = "<group>"; };
 		594E95DC27F25B78001D7472 /* CocktailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailCollectionViewCell.swift; sourceTree = "<group>"; };
+		594E95DF27F310FA001D7472 /* CollectionViewCustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCustomLayout.swift; sourceTree = "<group>"; };
 		6B4379D3FA7F57718EFA6B26 /* Pods-CocktailsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailsApp.release.xcconfig"; path = "Target Support Files/Pods-CocktailsApp/Pods-CocktailsApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,9 +145,10 @@
 		594E95D127F1EC3A001D7472 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				594E95E127F31869001D7472 /* CollectionView */,
+				594E95DE27F310C7001D7472 /* ViewLayout */,
 				594E95DB27F25B3E001D7472 /* Cell */,
 				594E95D427F1ED8C001D7472 /* Color */,
-				594E95D927F24DBB001D7472 /* CollectionViewSettings.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -164,6 +167,22 @@
 				594E95DC27F25B78001D7472 /* CocktailCollectionViewCell.swift */,
 			);
 			name = Cell;
+			sourceTree = "<group>";
+		};
+		594E95DE27F310C7001D7472 /* ViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				594E95DF27F310FA001D7472 /* CollectionViewCustomLayout.swift */,
+			);
+			name = ViewLayout;
+			sourceTree = "<group>";
+		};
+		594E95E127F31869001D7472 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				594E95D927F24DBB001D7472 /* CollectionViewSettings.swift */,
+			);
+			path = CollectionView;
 			sourceTree = "<group>";
 		};
 		83742EE3E8B05692F2F3D45B /* Pods */ = {
@@ -296,6 +315,7 @@
 				594E95D027F1E981001D7472 /* Cocktail.swift in Sources */,
 				594E95DD27F25B78001D7472 /* CocktailCollectionViewCell.swift in Sources */,
 				594E95D627F1ED9D001D7472 /* Gradient.swift in Sources */,
+				594E95E027F310FA001D7472 /* CollectionViewCustomLayout.swift in Sources */,
 				594E95DA27F24DBB001D7472 /* CollectionViewSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -41,18 +41,7 @@ class CocktailViewController: UIViewController {
 
 extension CocktailViewController: UICollectionViewDelegate {
     
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        drinks.count
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CocktailCell", for: indexPath) as? CocktailCollectionViewCell else { fatalError("error") }
-        cell.cocktail.text = drinks[indexPath.item].strDrink
-        cell.layer.cornerRadius = 10
-        return cell
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, didUnhighlightItemAt indexPath: IndexPath) {
+    func collectionView(_ collectionView: UICollectionView, didHighlightItemAt indexPath: IndexPath) {
         guard let cell = collectionView.cellForItem(at: indexPath) else { return }
         let gradient = Gradient.shared.getGradientLayer(bounds: cell.bounds)
         cell.backgroundColor = Gradient.shared.gradientColor(bounds: cell.bounds, gradientLayer: gradient)
@@ -64,15 +53,23 @@ extension CocktailViewController: UICollectionViewDelegate {
 
 extension CocktailViewController: UICollectionViewDataSource {
     
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-      return CGSize(width: collectionView.frame.width, height: 30)
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        drinks.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CocktailCell", for: indexPath) as? CocktailCollectionViewCell else { fatalError("error") }
+        cell.cocktail.text = drinks[indexPath.item].strDrink
+        cell.backgroundColor = .gray
+        cell.layer.cornerRadius = 10
+        return cell
     }
     
 }
 
 // MARK: - UICollectionViewDelegateFlowLayout
 
-extension CocktailCollectionViewCell: UICollectionViewDelegateFlowLayout {
+extension CocktailViewController: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         8

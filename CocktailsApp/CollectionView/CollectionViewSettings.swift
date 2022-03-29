@@ -12,7 +12,7 @@ class CollectionViewSettings: UIView {
     
     lazy var itemCollectionView: UICollectionView = {
         
-        let layout = UICollectionViewFlowLayout()
+        let layout = UICollectionViewCustomLayout()
         layout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
         layout.scrollDirection = .vertical
         layout.minimumLineSpacing = 8

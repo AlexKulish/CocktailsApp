@@ -15,9 +15,9 @@ class Gradient {
     func getGradientLayer(bounds: CGRect) -> CAGradientLayer {
         let gradient = CAGradientLayer()
         gradient.frame = bounds
-        gradient.colors = [UIColor.red, UIColor.purple]
-        gradient.startPoint = CGPoint(x: 0.7, y: 1.3)
-        gradient.endPoint = CGPoint(x: 1.2, y: 1.0)
+        gradient.colors = [UIColor.red.cgColor, UIColor.purple.cgColor]
+        gradient.startPoint = CGPoint(x: 0.6, y: 1.4)
+        gradient.endPoint = CGPoint(x: 1.1, y: 0.9)
         return gradient
     }
     
